@@ -5,7 +5,7 @@ const PORT = 3000;
 
 
 app.get('/say', async (req, res) => {
-  const keyword = req.query.keyword;  // Get the 'keyword' query param
+  const keyword = req.query.keyword; 
 
   try {
     
